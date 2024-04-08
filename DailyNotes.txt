@@ -1,0 +1,155 @@
+
+Language:
+	english,telugu,tamil...communication
+	
+	
+Programming Language:	
+	communication with machine 
+
+POP 						OOP
+B,BCPL,C,COBOL,PHOTON...	C++,JAVA,PYTHON,.NET...
+
+	
+	python general purpose high level language 
+
+	guido van rossam 1989
+	
+
+	feb 20th 1991
+
+	syntax
+ Java 53
+ public class Test
+ {
+ public static void main(String args[])
+ {
+ System.out.println("welcome to java");
+ }
+ }
+
+python
+print("welcome to python")
+
+33 keywords
+
+functional programming  features from C
+Object Oriented Features  C++
+Scripting Language features from shell script
+moduler programming Modula-3
+C,ABC
+
+
+1)desktop/standalone apps  ex: notepad++,anti virus,media player / corepython,tkinter
+2)web application			ex:gmail,amazon,flipkart...			/Django,Flask
+3)database applications     PDBC
+4)networking programming
+5)gaming apps
+6)Data Analysis
+7)ML
+8)IOT
+9)AI ....
+
+Features:
+simple and easy to learn
+free source and open force jython
+high language 
+portability/platform independent WORA
+dynamic typed  static typed byte age=32
+Interpreted	(PVM)
+rich set of library
+
+	flavours
+	
+	cpython
+	jython
+	IronPython
+	PyPY
+	RubyPython
+	AnacondaPython
+
+1.x 1991
+2.x 2000
+3.x 2008
+
+
+
+import keyword
+>>> keyword.kwlist
+['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue',
+ 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from',
+ 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or',
+ 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+
+identifiers
+	 any name in python will call it as identifier 
+	 
+	 a-z
+	 A-z
+	 0-9 we can use digit but we can't start with digit  
+	 _
+	 
+	 _password-->private
+	 __xyz
+	 __abc__
+identation
+
+variables
+	variables are names given to the memeory location
+	
+		sandeep trainer 9449494949
+
+
+
+datatypes
+
+		int
+		float
+		complex
+		bool
+		str
+		range
+		bytes
+		bytesarray
+		
+		list
+		tuple
+		set
+		frozenset
+		dict
+		none
+		
+type()
+print()
+id()
+
+
+slice -->a piece
+[]
+
+0
+accenture
++ve 
+-ve
+
+flow control
+					-2-1
+			accenture
+			012345678
+
+type casting
+
+	int()
+	float()
+	complex()
+	bool()
+	str()
+
+all these are immuttable
+
+
+
+
+
+
+
