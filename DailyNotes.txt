@@ -147,9 +147,121 @@ type casting
 
 all these are immuttable
 
+		list
+		tuple
+		set
+		frozenset
+		dict
+List:
+	1)duplicates are allowed 
+	2)insertion order is preserved
+	3)both homogeneous and heterogeneous data  allowed
+	4)growable in nature 
+	5)[] square brackets
+	6)list is muttable
+names=["suresh","mahesh","rajesh","naresh","hitesh","somesh","mahesh"]
+>>> type(names)
+<class 'list'>
+>>> print(names)
+['suresh', 'mahesh', 'rajesh', 'naresh', 'hitesh', 'somesh', 'mahesh']
+>>> names=["suresh","mahesh",12.54,"rajesh","naresh",123,"hitesh","somesh","mahesh"]
+>>> print(names)
+['suresh', 'mahesh', 12.54, 'rajesh', 'naresh', 123, 'hitesh', 'somesh', 'mahesh']
+>>> names.append("accenture")
+>>> print(names)
+['suresh', 'mahesh', 12.54, 'rajesh', 'naresh', 123, 'hitesh', 'somesh', 'mahesh', 'accenture']
+>>> names.remove("mahesh")
+>>> print(names)
+['suresh', 12.54, 'rajesh', 'naresh', 123, 'hitesh', 'somesh', 'mahesh', 'accenture']
+>>> list1=[12,23,29,34,12]
+>>> print(list1)
+[12, 23, 29, 34, 12]
+>>> list1[0]
+12
+>>> list1[2]
+29
+>>> list1[-1]
+12
+>>> list1[-2]
+34
+>>> list1[1:3]
+[23, 29]
+
+
+Tuple:
+	1)duplicates are allowed 
+	2)insertion order is preserved
+	3)both homogeneous and heterogeneous data  allowed
+	4)fixed in nature 
+	5)()
+	6)tuple is imuttable
+	
+
+>>> ids=(21,45,22,87,54,21,99)
+>>> type(ids)
+<class 'tuple'>
+>>> print(ids)
+(21, 45, 22, 87, 54, 21, 99)
+>>> ids.append(1234)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+>>> ids.remove(45)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'remove'
+>>> ids=(21,45,22,87,54,21,99,'suresh','mahesh')
+>>> print(ids)
+(21, 45, 22, 87, 54, 21, 99, 'suresh', 'mahesh')
 
 
 
+Set:
+	1)duplicates are not allowed 
+	2)insertion order is not preserved
+	3)both homogeneous and heterogeneous data  allowed
+	4)growable in nature 
+	5){}
+	6)set is muttable
+	
+	dict-->k,v
+	
+FrozenSet:
+	1)duplicates are not allowed 
+	2)insertion order is not preserved
+	3)both homogeneous and heterogeneous data  allowed
+	4)fixed in nature 
+	5)({})
+	6)frozenSet is imuttable
+	
+	dict-->k,v
 
 
+	{"eid",:123,"ename:"mahesh"}
+	
+ fs=frozenset(list)
+>>> print(fs)
+frozenset({32, 21, 22, 12, 44})
+>>> for i in fs:print(i)
+...
+32
+21
+22
+12
+44
 
+Dict:
+to represent objects as a key and value pair
+	key must be unique and value can be dupllicate
+
+>>> dictex={123:'sandeep',124:'mahesh'}
+>>> type(dictex)
+<class 'dict'>
+>>> print(dicrex)
+print(dictex[123])
+sandeep
+
+IDE 
+	
+	
+	
