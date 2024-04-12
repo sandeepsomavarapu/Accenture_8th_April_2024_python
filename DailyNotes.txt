@@ -263,5 +263,190 @@ sandeep
 
 IDE 
 	
+	STRING FORMAT IN PRINT
+	
+	
+	OOPS
+		s		-->code reusability -->memory
+		polymorphisam
+		encapsulation
+		abstraction
+	
+	class is template --->variables methods	
+	class A:
+	
+	class X(A):
+	
+		20 functions
+	
+	
+	class Y(X):				class B(X):
+		
+		3 functions		2 functions
+	
+	
+	
+	
+	class A:      class B:
+	
+	m1				m1
+	
+	
+	
+			class C(B)(A)
+	
+	name="mahesh"
+	name=''
+	
+	exception handling
+	
+	Limitations
+		1)System defined error messages 
+		2)abnormal termination
+		
+		
+		1
+		2
+		3	error -->stop execution-->abnormal termination
+		
+		
+		
+		
+		
+		1000
+		Advantages
+		
+		1)user friendly error messages 
+		2)normal termination
+	
+	
+	2 types
+	syntax errors
+	runtime errors-->invalid input
+	
+	a=10
+	if a==10:
+		print("valid")
+	
+	
+	
+								BaseException
+							
+							
+			Exception	SystemExit  GeneratorExit  KeywordInterrupt	
+	
+	AttributeError  ArithmeticError EOFError NameError OSError LookUpError  TypeError ValueError
+		
+						ZDE								FNFE	    IE
+						FPE								IE			KE
+						OE								PE
+														TOE
+	
+	try			error code
+	except		handling code
+	raise		to raise explicitly
+	finally     cleanup code 
+	
+	
+	combinations
+	
+only	try    		 	    		    invalid
+only	except   	 	    			invalid
+only	finally   	  	     			invalid
+		try & except					 valid
+		try & finally					 valid
+		try except else 	 			valid
+		try  else 	         			invalid
+		try  else  except    			invalid
+		try  finally  except		 	invalid
+		try  except finally 			 valid
+		try  except finally finally  	invalid
+		try  except except finally  	valid
+		try  except print("hi")finally  invalid
+		try  except try except          valid
+		try  (try except) except        valid
+		try   except(try except)        valid
+		
+	
+	
+	
+	InvalidCrendential		-->Raise 
+	PasswordError
+	NameLength
+	
+	
+	file operations:
+	---------------
+	
+	
+	
+	
+	multi threading 
+	
+	multi tasking is a process of executing several tasks simultaniously
+	
+			Process based multi tasking
+				
+				executing several tasks simultaniously where each task is seperate independent process
+			
+			Thread based multi tasking /multi threading
+				executing several tasks simultaniously where each and every task belongs to same process
+
+	
+	1)without any class
+	2)extending Thread
+	3)without extending Thread class
+	
+	threading 
+	
+	
+	mysql pdbc
+	
+	
+	
+	
+	regular expressions 
+		validation
+		
+		
+		Webservices:which is used to make communication between two interoperable applications
+		
+			REST
+			
+					
+			ATM  <---> XBank 
+			
+			RMI,EJB,SP-->java <-->java
+			DCOM			.net<-->.net	
+			RPC				c<-->c/c++
+			CORBA
+			webservices
+				SOAP		-->XML
+				REST		-->XML,JSON,PT,HTML,JS
+					
+			
+			
+			
+			HTTP
+				Get -->fetch
+				Post-->insert/new resource
+				put -->update
+				Delete-->removal
+						JSON
+			app1(python) <--->app2(java)
+			
+			emp=Employee(123,"sandeep",21000,"hyderabad")
+			
+			{
+			"eid":123,
+			"ename":"sandeep"
+			"esal":21000
+			"eadd":"hyderabad"
+			}
+			
+			
+	Django
+	
+	
 	
 	
