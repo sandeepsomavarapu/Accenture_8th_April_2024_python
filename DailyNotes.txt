@@ -445,8 +445,34 @@ only	finally   	  	     			invalid
 			}
 			
 			
-	Django
+	Django 2003-2005
+	
+	server 
+	
+	sqlite3
+	
+	MVT-->model view template
 	
 	
+	py -V
+	pip -V
 	
+	py -m pip install virtualenvwrapper-win  #installing virtualen for django apps
 	
+	mkvirtualenv my_dajngo_environment		#creating virtual environment
+	
+	py -m pip install django~=4.2			#Install django
+	
+	py -m django --version					#checking dajngo version
+	
+	django-admin startproject mytestdajngo  #creating Django project
+	
+	cd mytestdajngo							#get inside project
+	
+	py manage.py runserver					#run django project
+
+	py manage.py startapp employees			#to create apps 
+	
+	py manage.py makemigrations
+	
+	py manage.py migrate
